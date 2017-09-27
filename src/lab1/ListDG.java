@@ -18,55 +18,7 @@ public class ListDG {
     private VNode[] mVexs,mVexs1;  // 顶点数组
 
 
-    /* 
-     * 创建图(自己输入数据)
-     */
-    
-   /* 
-    public ListDG() {
-
-        // 输入"顶点数"和"边数"
-        System.out.printf("input vertex number: ");
-        int vlen = readInt();
-        System.out.printf("input edge number: ");
-        int elen = readInt();
-        if ( vlen < 1 || elen < 1 || (elen > (vlen*(vlen - 1)))) {
-            System.out.printf("input error: invalid parameters!\n");
-            return ;
-        }
-        
-        // 初始化"顶点"
-        mVexs = new VNode[vlen];
-        for (int i = 0; i < mVexs.length; i++) {
-            System.out.printf("vertex(%d): ", i);
-            mVexs[i] = new VNode();
-            mVexs[i].data = readChar();
-            mVexs[i].firstEdge = null;
-        }
-
-        // 初始化"边"
-        //mMatrix = new int[vlen][vlen];
-        for (int i = 0; i < elen; i++) {
-            // 读取边的起始顶点和结束顶点
-            System.out.printf("edge(%d):", i);
-            char c1 = readChar();
-            char c2 = readChar();
-            int p1 = getPosition(c1);
-            int p2 = getPosition(c2);
-            // 初始化node1
-            ENode node1 = new ENode();
-            node1.ivex = p2;
-            // 将node1链接到"p1所在链表的末尾"
-            if(mVexs[p1].firstEdge == null)
-              mVexs[p1].firstEdge = node1;
-            else
-                linkLast(mVexs[p1].firstEdge, node1);
-        }
-    }
-    */
-
-    
- 
+  
     
     /*
      * 创建图(用已提供的矩阵)
@@ -185,8 +137,6 @@ public class ListDG {
             {'F', 'G'}}; 
         ListDG pG;
 
-        // 自定义"图"(输入矩阵队列)
-        //pG = new ListDG();
         // 采用已有的"图"
         pG = new ListDG(vexs, edges);
 
