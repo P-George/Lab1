@@ -8,7 +8,7 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
-public class graph {         //邻接矩 阵有向图
+public class graph {         //邻接矩阵有向图
 	private int[][] in_matrix,out_matrix;  //出度表，入度表
 	private int [] vis;		
 	private String [] str ; //store split word	 	 

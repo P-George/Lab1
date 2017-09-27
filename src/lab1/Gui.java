@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class Gui {  // gui图形界面
+public class Gui {  //gui图形界面
 	
 	private JTextArea out_text ;    //输出文本区域
 	private JTextField in_text;    //输入文本区域
