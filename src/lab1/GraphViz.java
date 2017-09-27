@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-class  GraphViz{    //java 调用GraphViz
+class  GraphViz{    //java 调用 GraphViz
     private String runPath = "";
     private String dotPath = ""; 
     private String runOrder="";
