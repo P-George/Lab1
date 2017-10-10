@@ -48,7 +48,7 @@ public class Lab1 extends JComponent {
 	}
 	
 	public static void createFlowChartFrame() {
-		final JFrame f = new JFrame("流程图");  
+		final JFrame f = new JFrame("流程图解");  
         // f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
         f.setSize(800, 600);  
         f.add(new Lab1());  

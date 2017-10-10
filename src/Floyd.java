@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class Floyd {
-	private String [] str = {"to", "exchange", "strange", "new", "worlds" ,"seek" ,"out" ,"life" ,"and" , "civilizations" };
+	private String [] str = {"to", "exchange", "strange", "nod", "worlds" ,"seek" ,"out" ,"life" ,"and" , "civilizations" };
 	private int n = str.length;
 	private String [] str_0 = new String[n];
 	private int[][] in_matrix = new int [n][n];
